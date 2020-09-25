@@ -23,7 +23,7 @@ int main()
     {
     for(j=i+1; j<n; j++)
     {
-    if(price[j] < price[i])
+    if(price[j] > price[i])
     {
     tmp = price[i];
     price[i] = price[j];

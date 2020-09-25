@@ -1,3 +1,3 @@
-A Simple #C code which arranges values into ascending order based on user input.
+A Simple #C code which arranges values into descending order based on user input.
 
 
