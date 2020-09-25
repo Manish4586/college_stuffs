@@ -13,9 +13,9 @@ int main()
     scanf("%d", &n);
     for(i=0;i<n;i++)
     {
-    printf("Enter Product Name :", i);
+    printf("%d Enter Product Name :", i);
     scanf("%s",&item[i]);
-    printf("Price :",i);
+    printf("%d Enter Product Price :",i);
     scanf("%d",&size[i]);
     }
 
