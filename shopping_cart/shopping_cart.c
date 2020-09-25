@@ -13,7 +13,7 @@ int main()
     scanf("%d", &n);
     for(i=0;i<n;i++)
     {
-    printf("%d Enter Product Name :", i);
+    printf("%d Enter Product Name :",i);
     scanf("%s",&item[i]);
     printf("%d Enter Product Price :",i);
     scanf("%d",&size[i]);
@@ -21,21 +21,21 @@ int main()
 
     for(i=0; i<n; i++)
     {
-        for(j=i+1; j<n; j++)
-        {
-            if(size[j] <size[i])
-            {
-                tmp = size[i];
-                size[i] = size[j];
-                size[j] = tmp;
-            }
-        }
+    for(j=i+1; j<n; j++)
+    {
+    if(size[j] <size[i])
+    {
+    tmp = size[i];
+    size[i] = size[j];
+    size[j] = tmp;
     }
+   }
+  }
     printf("\nItems In Your Cart :\n");
     for(i=0; i<n; i++)
     {
-        printf("Product:%s ", item[i]);
-        printf("Price:%d\n", size[i]);
+    printf("Product:%s ", item[i]);
+    printf("Price:%d\n", size[i]);
     }
         //printf("\n\n");
 }
