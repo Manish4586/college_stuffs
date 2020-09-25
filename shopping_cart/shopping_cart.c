@@ -2,11 +2,9 @@
 
 int main()
 {
+    char item[500][50];
     int size[1000];
-    int r =20;
     int n, i, j, tmp;
-    char item[r][50];
-    char h, g, temp;
 
 /*    printf("Enter Product Name :");
     scanf("%s", &item);
@@ -15,8 +13,8 @@ int main()
     scanf("%d", &n);
     for(i=0;i<n;i++)
     {
-    printf("Enter Product Name :", h);
-    scanf("%s",&item[h]);
+    printf("Enter Product Name :", i);
+    scanf("%s",&item[i]);
     printf("Price :",i);
     scanf("%d",&size[i]);
     }
@@ -36,7 +34,7 @@ int main()
     printf("\nItems In Your Cart :\n");
     for(i=0; i<n; i++)
     {
-        printf("Product:%s ", item[h]);
+        printf("Product:%s ", item[i]);
         printf("Price:%d\n", size[i]);
     }
         //printf("\n\n");
